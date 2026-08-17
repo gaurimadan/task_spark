@@ -791,7 +791,7 @@ The program calculates and displays the top five authors by out-degree.
 
 <!-- INSERT SCREENSHOT: task12-outdegree.png -->
 
-![Top 5 Authors by Out-Degree](Screenshot from 2026-08-17 20-16-54.png)
+![Top 5 Authors by Out-Degree](image5.png)
 
 ---
 
