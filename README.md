@@ -290,7 +290,7 @@ hdfs dfs -cat /mapreduce/output/part-r-00000
 
 <!-- INSERT SCREENSHOT: wordcount-output.png -->
 
-![WordCount Output](Screenshot from 2026-08-17 18-07-02.png)
+![WordCount Output](image2.png)
 
 ---
 
@@ -412,13 +412,6 @@ It was executed using:
 spark-submit task10_metadata.py
 ```
 
-### Screenshot
-
-<!-- INSERT SCREENSHOT: task10-execution.png -->
-
-![Task 10 Execution](Screenshot from 2026-08-17 19-35-46.png)
-
----
 
 # 15. Q10 — Extracted Metadata
 
@@ -435,7 +428,7 @@ Encoding
 
 <!-- INSERT SCREENSHOT: task10-metadata.png -->
 
-![Extracted Metadata](Screenshot from 2026-08-17 19-35-46.png)
+![Extracted Metadata](image3.png)
 
 ---
 
@@ -449,7 +442,7 @@ The books were then grouped according to their release year to determine the num
 
 <!-- INSERT SCREENSHOT: task10-year.png -->
 
-![Books Released Per Year](sScreenshot from 2026-08-17 19-35-46.png)
+![Books Released Per Year](image3.png)
 
 ---
 
@@ -463,7 +456,7 @@ This allows the most common language in the Gutenberg collection to be identifie
 
 <!-- INSERT SCREENSHOT: task10-language.png -->
 
-![Language Analysis](Screenshot from 2026-08-17 19-35-46.png)
+![Language Analysis](image3.png)
 
 ---
 
@@ -477,7 +470,7 @@ The average title length was then calculated over the available books.
 
 <!-- INSERT SCREENSHOT: task10-title-length.png -->
 
-![Average Title Length](screenshots/task10-title-length.png)
+![Average Title Length](image3.png)
 
 ---
 
@@ -503,7 +496,7 @@ For a real-world application, missing values could be stored as `NULL` or anothe
 
 <!-- INSERT SCREENSHOT: task10-missing-metadata.png -->
 
-![Missing Metadata](screenshots/task10-missing-metadata.png)
+![Missing Metadata](image3.png)
 
 ---
 
@@ -640,7 +633,6 @@ The program was executed using:
 spark-submit --driver-memory 2g task11_tfidf.py
 ```
 
-### Screenshot
 
 
 ## Q11 Observation
@@ -747,7 +739,7 @@ spark-submit --driver-memory 2g task12_influence.py
 
 <!-- INSERT SCREENSHOT: task12-execution.png -->
 
-![Task 12 Execution](Screenshot from 2026-08-17 20-16-41.png)
+![Task 12 Execution](image4.png)
 
 ---
 
@@ -759,7 +751,7 @@ The generated author pairs represent the relationships established using the fiv
 
 <!-- INSERT SCREENSHOT: task12-edges.png -->
 
-![Influence Edges](Screenshot from 2026-08-17 20-16-41.png)
+![Influence Edges](image4.png)
 
 ---
 
@@ -775,7 +767,7 @@ The program calculates and displays the top five authors by in-degree.
 
 <!-- INSERT SCREENSHOT: task12-indegree.png -->
 
-![Top 5 Authors by In-Degree](Screenshot from 2026-08-17 20-16-54.png)
+![Top 5 Authors by In-Degree](image5.png)
 
 ---
 
